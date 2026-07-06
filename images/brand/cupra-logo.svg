@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="180" viewBox="0 0 420 180" role="img" aria-labelledby="title desc">
+  <title id="title">Cupra perfume wordmark</title>
+  <desc id="desc">A luxury Cupra wordmark with a monogram mark for perfume packaging.</desc>
+  <rect width="420" height="180" fill="#fffaf4"/>
+  <rect x="24" y="24" width="132" height="132" rx="8" fill="#7c1d2e"/>
+  <path d="M109.5 61.5c-9.7-8.8-27.2-8.2-38 2.5-13.6 13.5-13.6 38.5 0 52 11.1 11 29 11.1 38.8 1.8" fill="none" stroke="#f4d78b" stroke-width="11" stroke-linecap="round"/>
+  <path d="M113 90h21" fill="none" stroke="#f4d78b" stroke-width="7" stroke-linecap="round"/>
+  <text x="184" y="84" fill="#221f1f" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" letter-spacing="4">CUPRA</text>
+  <path d="M184 104h178" stroke="#c6973f" stroke-width="3" stroke-linecap="round"/>
+  <text x="184" y="132" fill="#716b64" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="5">PERFUME ATELIER</text>
+</svg>

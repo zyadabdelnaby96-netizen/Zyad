@@ -6,12 +6,12 @@ const crypto = require("crypto");
 const PORT = Number(process.env.PORT || 4173);
 const ADMIN_EMAIL = process.env.ADMIN_EMAIL || "admin@perfume.local";
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "123456";
-const PUBLIC_DIR = process.cwd();
-const DATA_FILE = path.join(process.cwd(), "data", "products.json");
-const ORDERS_FILE = path.join(process.cwd(), "data", "orders.json");
-const SETTINGS_FILE = path.join(process.cwd(), "data", "settings.json");
-const PURCHASES_FILE = path.join(process.cwd(), "data", "purchases.json");
-const IMAGES_DIR = path.join(process.cwd(), "images");
+const PUBLIC_DIR = path.resolve(__dirname);
+const DATA_FILE = path.join(__dirname, "data", "products.json");
+const ORDERS_FILE = path.join(__dirname, "data", "orders.json");
+const SETTINGS_FILE = path.join(__dirname, "data", "settings.json");
+const PURCHASES_FILE = path.join(__dirname, "data", "purchases.json");
+const IMAGES_DIR = path.join(__dirname, "images");
 const PRODUCTS_IMAGE_DIR = path.join(IMAGES_DIR, "products");
 
 const TOKEN_SECRET = process.env.ADMIN_PASSWORD || "123456";
@@ -58,13 +58,15 @@ const mimeTypes = {
   ".svg": "image/svg+xml; charset=utf-8",
 };
 
-// Ensure directories exist
-if (!fs.existsSync(path.join(process.cwd(), "data"))) {
-  fs.mkdirSync(path.join(process.cwd(), "data"), { recursive: true });
-}
-if (!fs.existsSync(PRODUCTS_IMAGE_DIR)) {
-  fs.mkdirSync(PRODUCTS_IMAGE_DIR, { recursive: true });
-}
+// Ensure directories exist (only attempt in writable environments)
+try {
+  if (!fs.existsSync(path.join(__dirname, "data"))) {
+    fs.mkdirSync(path.join(__dirname, "data"), { recursive: true });
+  }
+  if (!fs.existsSync(PRODUCTS_IMAGE_DIR)) {
+    fs.mkdirSync(PRODUCTS_IMAGE_DIR, { recursive: true });
+  }
+} catch (_) { /* read-only env (Vercel) — ignore */ }
 
 function readProducts() {
   try {

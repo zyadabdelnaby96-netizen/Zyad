@@ -13,7 +13,7 @@
       }
     ],
     "total": 1250,
-    "status": "new",
+    "status": "cancelled",
     "createdAt": "2026-07-01T11:07:07.093Z"
   },
   {
@@ -30,7 +30,7 @@
       }
     ],
     "total": 1450,
-    "status": "new",
+    "status": "cancelled",
     "createdAt": "2026-07-01T11:11:27.020Z"
   },
   {
@@ -47,7 +47,151 @@
       }
     ],
     "total": 1120,
-    "status": "new",
+    "status": "cancelled",
     "createdAt": "2026-07-01T11:13:30.651Z"
+  },
+  {
+    "id": "ord_3ec7e3d75bb1",
+    "customerName": "محمد الشحرى",
+    "phone": "01014063287",
+    "notes": "ابوزعبل - الصفا",
+    "items": [
+      {
+        "id": "tommy-hilfiger",
+        "name": "ZYCORE TOMMY HILFIGER (50ml)",
+        "size": "50ml",
+        "quantity": 1,
+        "price": 250
+      }
+    ],
+    "total": 250,
+    "status": "done",
+    "createdAt": "2026-07-13T11:10:27.836Z"
+  },
+  {
+    "id": "ord_fafb2bb6a3f7",
+    "customerName": "طارق",
+    "phone": "01062848102",
+    "notes": "",
+    "items": [
+      {
+        "id": "black-lexus",
+        "name": "ZYCORE BLACK LEXUS (30ml)",
+        "size": "30ml",
+        "quantity": 1,
+        "price": 150
+      }
+    ],
+    "total": 150,
+    "status": "done",
+    "createdAt": "2026-07-13T11:37:34.764Z"
+  },
+  {
+    "id": "ord_ce644c674042",
+    "customerName": "عبدالسميع",
+    "phone": "01028829950",
+    "notes": "العنوان العاشر من رمضان مجاورة 45",
+    "items": [
+      {
+        "id": "tommy-hilfiger",
+        "name": "ZYCORE TOMMY HILFIGER (30ml)",
+        "size": "30ml",
+        "quantity": 1,
+        "price": 150
+      }
+    ],
+    "total": 150,
+    "status": "cancelled",
+    "createdAt": "2026-07-13T11:38:37.851Z"
+  },
+  {
+    "id": "ord_a73a5648fb73",
+    "customerName": "حلمى خالد",
+    "phone": "01144641372",
+    "notes": "",
+    "items": [
+      {
+        "id": "tommy-hilfiger",
+        "name": "ZYCORE TOMMY HILFIGER (30ml)",
+        "size": "30ml",
+        "quantity": 1,
+        "price": 150
+      }
+    ],
+    "total": 150,
+    "status": "cancelled",
+    "createdAt": "2026-07-13T11:39:15.946Z"
+  },
+  {
+    "id": "ord_6f321492cb81",
+    "customerName": "صالح السعودى",
+    "phone": "01067484800",
+    "notes": "الصفا",
+    "items": [
+      {
+        "id": "tommy-hilfiger",
+        "name": "ZYCORE TOMMY HILFIGER (30ml)",
+        "size": "30ml",
+        "quantity": 1,
+        "price": 150
+      }
+    ],
+    "total": 150,
+    "status": "done",
+    "createdAt": "2026-07-13T11:40:01.194Z"
+  },
+  {
+    "id": "ord_908b04deb6e0",
+    "customerName": "صالح السعودى",
+    "phone": "01067484800",
+    "notes": "الصفا",
+    "items": [
+      {
+        "id": "black-lexus",
+        "name": "ZYCORE BLACK LEXUS (50ml)",
+        "size": "50ml",
+        "quantity": 1,
+        "price": 250
+      }
+    ],
+    "total": 250,
+    "status": "done",
+    "createdAt": "2026-07-13T11:40:37.258Z"
+  },
+  {
+    "id": "ord_3d0055384ffa",
+    "customerName": "عبد السميع أحمد",
+    "phone": "01028829950",
+    "notes": "العنوان العاشر من رمضان مجاورة 45",
+    "items": [
+      {
+        "id": "tommy-hilfiger",
+        "name": "ZYCORE TOMMY HILFIGER (50ml)",
+        "size": "50ml",
+        "quantity": 1,
+        "price": 250
+      }
+    ],
+    "total": 250,
+    "status": "done",
+    "createdAt": "2026-07-13T11:42:14.434Z"
+  },
+  {
+    "id": "ord_2b23d4fbb934",
+    "customerName": "حلمى خالد",
+    "phone": "01144641372",
+    "notes": "ابوزعبل",
+    "items": [
+      {
+        "id": "tommy-hilfiger",
+        "name": "ZYCORE TOMMY HILFIGER (50ml)",
+        "size": "50ml",
+        "quantity": 1,
+        "price": 250
+      }
+    ],
+    "total": 250,
+    "status": "done",
+    "createdAt": "2026-07-13T11:43:59.898Z"
   }
 ]

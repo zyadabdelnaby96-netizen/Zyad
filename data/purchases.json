@@ -1,0 +1,233 @@
+[
+  {
+    "id": "pur_428545997e46",
+    "itemName": "عطر زيت تومى رجال مركز",
+    "category": "oil",
+    "supplier": "M",
+    "quantity": 81,
+    "unitPrice": 5.56,
+    "totalPrice": 450.35999999999996,
+    "date": "2026-07-06",
+    "notes": ""
+  },
+  {
+    "id": "pur_173475507ca2",
+    "itemName": "خمره قهوه",
+    "category": "oil",
+    "supplier": "K",
+    "quantity": 41,
+    "unitPrice": 5.445,
+    "totalPrice": 223.245,
+    "date": "2026-07-07",
+    "notes": ""
+  },
+  {
+    "id": "pur_69037dc2cb6e",
+    "itemName": "بلاك ليكزيس رجالى",
+    "category": "oil",
+    "supplier": "D",
+    "quantity": 41,
+    "unitPrice": 5.005,
+    "totalPrice": 205.20499999999998,
+    "date": "2026-07-07",
+    "notes": ""
+  },
+  {
+    "id": "pur_14575a37e4fd",
+    "itemName": "انفكتس",
+    "category": "oil",
+    "supplier": "K",
+    "quantity": 40,
+    "unitPrice": 6.3525,
+    "totalPrice": 254.1,
+    "date": "2026-07-07",
+    "notes": ""
+  },
+  {
+    "id": "pur_9d5d24bcfc7d",
+    "itemName": "مثبت",
+    "category": "alcohol",
+    "supplier": "حامد للعطور",
+    "quantity": 100,
+    "unitPrice": 0.6,
+    "totalPrice": 60,
+    "date": "2026-07-07",
+    "notes": ""
+  },
+  {
+    "id": "pur_62bcd3308396",
+    "itemName": "تيستر جيب",
+    "category": "bottle",
+    "supplier": "حامد للعطور",
+    "quantity": 5,
+    "unitPrice": 20,
+    "totalPrice": 100,
+    "date": "2026-07-07",
+    "notes": ""
+  },
+  {
+    "id": "pur_beb3146c8405",
+    "itemName": "تيستر",
+    "category": "bottle",
+    "supplier": "حامد للعطور",
+    "quantity": 5,
+    "unitPrice": 10,
+    "totalPrice": 50,
+    "date": "2026-07-07",
+    "notes": ""
+  },
+  {
+    "id": "pur_8cf70dbc3037",
+    "itemName": "4",
+    "category": "bottle",
+    "supplier": "حامد للعطور",
+    "quantity": 4,
+    "unitPrice": 40,
+    "totalPrice": 160,
+    "date": "2026-07-07",
+    "notes": ""
+  },
+  {
+    "id": "pur_9b5a1885b213",
+    "itemName": "زجاجات فارغه",
+    "category": "bottle",
+    "supplier": "حامد للعطور",
+    "quantity": 5,
+    "unitPrice": 37.5,
+    "totalPrice": 187.5,
+    "date": "2026-07-07",
+    "notes": ""
+  },
+  {
+    "id": "pur_ebb5de7505c0",
+    "itemName": "زجاجات فارغه",
+    "category": "bottle",
+    "supplier": "حامد للعطور",
+    "quantity": 5,
+    "unitPrice": 35,
+    "totalPrice": 175,
+    "date": "2026-07-07",
+    "notes": ""
+  },
+  {
+    "id": "pur_1ee7db68de5b",
+    "itemName": "زجاجات فارغه",
+    "category": "bottle",
+    "supplier": "حامد للعطور",
+    "quantity": 5,
+    "unitPrice": 35,
+    "totalPrice": 175,
+    "date": "2026-07-07",
+    "notes": ""
+  },
+  {
+    "id": "pur_a84977332436",
+    "itemName": "زجاجه بليه",
+    "category": "bottle",
+    "supplier": "حامد للعطور",
+    "quantity": 4,
+    "unitPrice": 3,
+    "totalPrice": 12,
+    "date": "2026-07-07",
+    "notes": ""
+  },
+  {
+    "id": "pur_d22dd9af9f2d",
+    "itemName": "مارشيميللو",
+    "category": "oil",
+    "supplier": "شركه selvet",
+    "quantity": 50,
+    "unitPrice": 3.35,
+    "totalPrice": 167.5,
+    "date": "2026-07-10",
+    "notes": "المصريه للعطول"
+  },
+  {
+    "id": "pur_a41f12feccf2",
+    "itemName": "سوفاج سوبر",
+    "category": "oil",
+    "supplier": "forma",
+    "quantity": 50,
+    "unitPrice": 5.695,
+    "totalPrice": 284.75,
+    "date": "2026-07-13",
+    "notes": "المصريه للعطور"
+  },
+  {
+    "id": "pur_66b804c9b47d",
+    "itemName": "كحول",
+    "category": "alcohol",
+    "supplier": "panda",
+    "quantity": 120,
+    "unitPrice": 1.2,
+    "totalPrice": 144,
+    "date": "2026-07-10",
+    "notes": "المصريه للعطور"
+  },
+  {
+    "id": "pur_2226a30cd14d",
+    "itemName": "مكبس يدوى امريكى",
+    "category": "other",
+    "supplier": "المصريه للعطور",
+    "quantity": 1,
+    "unitPrice": 70,
+    "totalPrice": 70,
+    "date": "2026-07-10",
+    "notes": ""
+  },
+  {
+    "id": "pur_694159a440bd",
+    "itemName": "كحول",
+    "category": "alcohol",
+    "supplier": "بيراميدز",
+    "quantity": 2,
+    "unitPrice": 100,
+    "totalPrice": 200,
+    "date": "2026-07-07",
+    "notes": "حامد للعطور"
+  },
+  {
+    "id": "pur_d53fa8ec2d75",
+    "itemName": "زجاجات فارغه",
+    "category": "bottle",
+    "supplier": "حامد للعطور",
+    "quantity": 10,
+    "unitPrice": 35,
+    "totalPrice": 350,
+    "date": "2026-07-11",
+    "notes": "100 ملى"
+  },
+  {
+    "id": "pur_6d596ecdf5f3",
+    "itemName": "زجاجات فارغه",
+    "category": "bottle",
+    "supplier": "حامد للعطور",
+    "quantity": 20,
+    "unitPrice": 32.5,
+    "totalPrice": 650,
+    "date": "2026-07-11",
+    "notes": "50 ملى"
+  },
+  {
+    "id": "pur_038a8956b1bb",
+    "itemName": "زجاجات فارغه",
+    "category": "bottle",
+    "supplier": "حامد للعطور",
+    "quantity": 15,
+    "unitPrice": 30,
+    "totalPrice": 450,
+    "date": "2026-07-11",
+    "notes": "30 ملى"
+  },
+  {
+    "id": "pur_c4f430e8cc01",
+    "itemName": "حقنه",
+    "category": "other",
+    "supplier": "حامد للعطور",
+    "quantity": 2,
+    "unitPrice": 10,
+    "totalPrice": 20,
+    "date": "2026-07-11",
+    "notes": ""
+  }
+]

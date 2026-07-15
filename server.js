@@ -70,16 +70,17 @@ try {
 
 function readProducts() {
   try {
-    if (!fs.existsSync(DATA_FILE)) {
-      try {
-        fs.writeFileSync(DATA_FILE, "[]\n", "utf8");
-      } catch (err) {
-        // Ignore write failures in read-only environments
-      }
-    }
     return JSON.parse(fs.readFileSync(DATA_FILE, "utf8"));
   } catch {
-    return [];
+    // Vercel read-only fallback: use require() which gets bundled at deploy time
+    try {
+      // Clear require cache so local changes reflect without restart
+      const resolved = require.resolve("./data/products.json");
+      delete require.cache[resolved];
+      return require("./data/products.json");
+    } catch {
+      return [];
+    }
   }
 }
 
